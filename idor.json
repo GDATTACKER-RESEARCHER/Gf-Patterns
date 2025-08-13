@@ -1,26 +1,24 @@
 {
-    "flags": "-iE",
-     "patterns": [
-
- "id=",
- "user=",
- "account=",
- "number=",
- "order=",
- "no=",
- "doc=",
- "key=",
- "email=",
- "group=",
- "profile=",
- "edit=",
- "report="
- 
- ]
+  "flags": "-iE",
+  "patterns": [
+    "([?&]id=)",
+    "([?&]user=)",
+    "([?&]uid=)",
+    "([?&]account=)",
+    "([?&]number=)",
+    "([?&]order=)",
+    "([?&]no=)",
+    "([?&]doc=)",
+    "([?&]pid=)",
+    "([?&]customer=)",
+    "([?&]invoice=)",
+    "([?&]key=)",
+    "([?&]ref=)",
+    "([?&]token=)",
+    "([?&]email=)",
+    "([?&]group=)",
+    "([?&]profile=)",
+    "([?&]edit=)",
+    "([?&]report=)"
+  ]
 }
-
-
-
-
-
-
